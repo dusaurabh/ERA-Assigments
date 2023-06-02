@@ -16,4 +16,33 @@ Afte separating the codes, we then have to run the whole code again to check if 
 
 </p>
 
-<h1>Usage</h1>
+<h1>How to use</h1>
+<h3>Explanation of Utils.py</h3>
+
+```import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
+from torchvision import datasets, transforms
+from utils import *
+ ```
+<p>Above code imports all the libraries and frameworks for pytorch</p>
+
+```# Train data transformations
+train_transforms = transforms.Compose([
+    transforms.RandomApply([transforms.CenterCrop(22), ], p=0.1),
+    transforms.Resize((28, 28)),
+    transforms.RandomRotation((-15., 15.), fill=0),
+    transforms.ToTensor(),
+    transforms.Normalize((0.1307,), (0.3081,)),
+    ])
+
+# Test data transformations
+test_transforms = transforms.Compose([
+    transforms.ToTensor(),
+    transforms.Normalize((0.1307,), (0.3081,))
+    ])
+```
+<p>In above, we have defined the transformation for train and test dataset. We apply different kinds to transformation technique like random apply, center crop, rotation to train dataset only because we want to train out model for extreme conditions and cases also.<br>
+But for test dataset, we are only using simple tensor and normalize
+</p>
