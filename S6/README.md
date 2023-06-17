@@ -18,6 +18,16 @@ Below is the line by line description of step 1
 8) For calculating a_o2 we will apply sigmoid function to o2
 9) For calculating E_total we will sum E1 and E2
 
+![Example Image](outputs/step_2.png)
+Above is the step 2
+
+In Step 2, we will calculate derivative of E_total wrt to derivative of weight 5, for calculating E_total we have to calculate derivative of E1 and E2 wrt to weight 5. but DE1( Derivative of E1 ) is dependent on W5 and DE2 is not dependent on W5
+
+![Example Image](outputs/step_3.png)
+Above is the step 3
+
+In Step 3, we will calculate Derivative of E_Total wrt to W5,W6,W7 and W8
+
 ![Example Image](outputs/learning_rate_0.1.png)
 
 Above is the loss graph when the learning rate is set to 0.1. When epochs goes to 66, the loss decreasing speed gets reduced
