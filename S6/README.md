@@ -17,3 +17,30 @@ Below is the line by line description of step 1
 7) For calculating a_o1 we will apply sigmoid function to o1
 8) For calculating a_o2 we will apply sigmoid function to o2
 9) For calculating E_total we will sum E1 and E2
+
+![Example Image](outputs/learning_rate_0.1.png)
+
+Above is the loss graph when the learning rate is set to 0.1. When epochs goes to 66, the loss decreasing speed gets reduced
+
+![Example Image](outputs/learning_rate_0.2.png)
+
+Above is the loss graph when the learning rate is set to 0.2. When epochs goes to 66, the loss is good as compared to 0.1 learning rate
+
+![Example Image](outputs/learning_rate_0.3.png)
+
+Above is the loss graph when the learning rate is set to 0.3. When epochs goes to 66, the loss is even good as compared to 0.1 and 0.2 learning rate
+
+![Example Image](outputs/learning_rate_0.8.png)
+
+Above is the loss graph when learning rate is set 0.8
+
+![Example Image](outputs/learning_rate_1.png)
+
+Above is the loss graph when learning rate is set 1
+
+![Example Image](outputs/learning_rate_2.png)
+
+Above is the loss graph when learning rate is set 2
+
+
+
