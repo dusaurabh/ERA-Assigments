@@ -48,4 +48,15 @@ I have got the below results in 20 epochs
 ![Example Image](outputs/layer_loss_graph.png)
 
 
+### Our Best The Training & Testing Accuracy for Batch Normalization is below
+![Example Image](outputs/batch_norm_result.png)
+
+### Our Best The Training & Testing Accuracy for Group Normalization is below
+![Example Image](outputs/group_norm_result.png)
+
+### Our Best The Training & Testing Accuracy for Layer Normalization is below
+![Example Image](outputs/layer_norm_result.png)
+
+
+
 
