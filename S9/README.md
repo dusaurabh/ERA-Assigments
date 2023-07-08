@@ -20,3 +20,14 @@ The Assignment task was :
 
 The Loss Output graph is below 
 ![Example Image](outputs/loss_graph.png)
+
+
+We have achieve some of our targets
+1) Getting RF of more then 44
+2) Accuracy of more then 85
+3) Making NN without Max Pool and with stride of 2
+4) Implemeneting argumenetation library
+
+We have fail to implemented below targets
+1) Dilated Convolution
+2) Depthwise Separable Convolution
